@@ -9,6 +9,9 @@ app.get('/', (req, res) => {
 app.get('/login', (req, res) => {
     res.send('<h1>Hello world</h1>')
 })
+app.get('/logout', (req, res) => {
+    res.send('<h1>Hello world</h1>')
+})
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
